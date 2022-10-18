@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="16x16" href="<%= VUE_APP_PUBLIC_URL %>/assets/images/logo.png">
+	<link rel="manifest" href="<%= VUE_APP_PUBLIC_URL %>/manifest.json">
+
+	<title><%= VUE_APP_SEO_TITLE %></title>
+	<meta name="description" content="<%= VUE_APP_SEO_DESCRIPTION %>">
+	<link rel="canonical" href="<%= VUE_APP_PUBLIC_URL %>">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<noscript>
+		<strong>We're sorry but <%= process.env.VUE_APP_TITLE %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+	</noscript>
+	<div id="app">
+		<h1 style="visibility: hidden"><%= VUE_APP_SEO_TITLE %></h1>
+		<h2 class="repository">
+			<a href="https://github.com/ferditarakci/calculator-app-vue-js" title="<%= VUE_APP_SEO_TITLE %>">GitHub Repository</a>
+		</h2>
+	</div>
+</body>
+</html>
