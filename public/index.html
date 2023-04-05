@@ -24,5 +24,14 @@
 			<a href="https://github.com/ferditarakci/calculator-app-vue-js" title="<%= VUE_APP_SEO_TITLE %>">GitHub Repository</a>
 		</h2>
 	</div>
+	<% if (process.env.NODE_ENV === 'production') { %>
+		<script src="https://www.googletagmanager.com/gtag/js?id=UA-23038491-6" async></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments) }
+			gtag('js', new Date());
+			gtag('config', 'UA-23038491-6');
+		</script>
+	<% } %>
 </body>
 </html>
