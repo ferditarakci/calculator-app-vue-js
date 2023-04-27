@@ -7,17 +7,17 @@
 </template>
 
 <script>
-import CalculatorApp from "./components/CalculatorApp.vue"
+import CalculatorApp from '@/components/CalculatorApp'
 
 export default {
-	name: "App",
+	name: 'App',
 
 	components: {
-		CalculatorApp
-	}
+		CalculatorApp,
+	},
 }
 </script>
 
 <style lang="scss">
-	@import "./assets/style.scss";
+@import '@/assets/style.scss';
 </style>

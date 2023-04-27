@@ -4,7 +4,7 @@
 	width: 375px;
 	padding: 40px;
 	border-radius: 32px;
-	background: linear-gradient(300deg, #F7F8FB -10%, rgba(247, 248, 251, 0.19) 120%);
+	background: linear-gradient(300deg, #f7f8fb -10%, rgba(247, 248, 251, 0.19) 120%);
 	backdrop-filter: blur(12px);
 	flex-direction: column;
 
@@ -15,7 +15,7 @@
 		right: -40px;
 		width: 230px;
 		height: 230px;
-		content: "";
+		content: '';
 		opacity: 0.6;
 		background: #abf7f9;
 		filter: blur(50px);
@@ -44,6 +44,10 @@
 		min-height: 72px;
 		font-size: 3rem;
 		font-weight: 700;
+
+		&:global(.small) {
+			font-size: 2rem;
+		}
 	}
 }
 
@@ -72,14 +76,14 @@
 		font-size: 1.5rem;
 		font-weight: 600;
 		font-style: normal;
-		color: rgba(black, .7);
+		color: rgba(black, 0.7);
 		cursor: pointer;
 		border-radius: 12px;
 		border: none;
-		background: linear-gradient(130deg, rgba(var(--color1), .8) 0%, rgba(var(--color1), .8) 30%, rgba(var(--color2), 1) 60%, rgba(var(--color2), 1) 100%);
+		background: linear-gradient(130deg, rgba(var(--color1), 0.8) 0%, rgba(var(--color1), 0.8) 30%, rgba(var(--color2), 1) 60%, rgba(var(--color2), 1) 100%);
 		box-shadow: 0px 2px 5px rgba(black, 0.1);
 		backdrop-filter: blur(6px);
-		transition: all .4s linear;
+		transition: all 0.4s linear;
 		user-select: none;
 		appearance: none;
 
@@ -89,10 +93,10 @@
 			left: 50%;
 			width: 0;
 			height: 0;
-			content: "";
+			content: '';
 			border-radius: 50%;
 			background-color: rgba(white, 0.15);
-			transition: all .4s ease;
+			transition: all 0.4s ease;
 		}
 
 		&.white {
@@ -177,17 +181,17 @@
 			grid-area: 5 / 3 / 6 / 5;
 		}
 
-		>span {
+		> span {
 			position: relative;
 			display: block;
 			pointer-events: none;
 
-			>span {
+			> span {
 				display: block;
 				margin-top: 0.5rem;
 				font-size: 0.65rem;
 				font-weight: 400;
-				opacity: .5;
+				opacity: 0.5;
 			}
 		}
 
@@ -215,7 +219,7 @@
 	.red {
 		--color1: 255, 108, 108;
 		--color2: 224, 0, 0;
-		color: rgba(white, .7);
+		color: rgba(white, 0.7);
 	}
 
 	.blue {
@@ -226,6 +230,6 @@
 	.green {
 		--color1: 51, 230, 51;
 		--color2: 0, 155, 0;
-		color: rgba(white, .8);
+		color: rgba(white, 0.8);
 	}
 }
