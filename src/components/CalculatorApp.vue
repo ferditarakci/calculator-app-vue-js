@@ -13,12 +13,6 @@
 				</strong>
 			</div>
 		</div>
-		<div>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
-			accusamus neque! Exercitationem facere quia pariatur alias harum
-			illum voluptatum, cum cupiditate sit ea ex ipsam debitis assumenda
-			ad velit aliquid.
-		</div>
 		<div :class="styles.numpad">
 			<button
 				@click="button(item.key)"
