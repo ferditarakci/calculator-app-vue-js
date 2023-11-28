@@ -10,21 +10,29 @@ https://ferditarakci-calculator-app-vue-js.vercel.app
 
 ## Project setup
 ```
+yarn
+# or
 npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
+yarn serve
+# or
 npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
+yarn build
+# or
 npm run build
 ```
 
 ### Lints and fixes files
 ```
+yarn lint
+# or
 npm run lint
 ```
 
