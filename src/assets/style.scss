@@ -19,7 +19,6 @@ body {
 		opacity: 0.6;
 		background: url(/assets/images/background.jpg) no-repeat;
 		background-size: cover;
-		filter: blur(12px);
 	}
 }
 
@@ -40,11 +39,19 @@ button {
 #app {
 	position: relative;
 	display: flex;
-	width: 100%;
+	width: 100vw;
 	min-height: 100vh;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+	background-color: rgba(black, 0.5);
+	backdrop-filter: blur(12px);
+
+	> div {
+		position: relative;
+		display: flex;
+		flex: 1;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 }
 
 .title {
