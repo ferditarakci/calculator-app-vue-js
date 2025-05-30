@@ -3,9 +3,7 @@
 ## Vue.js ile Hesap Makinesi
 
 ### App Link
-https://calculator.ferditarakci.com.tr
-
-https://ferditarakci-calculator-app-vue-js.vercel.app
+https://calc.ferditarakci.com.tr
 
 <br>
 <br>
@@ -13,33 +11,22 @@ https://ferditarakci-calculator-app-vue-js.vercel.app
 ## Project setup
 ```
 yarn
-# or
-npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
-# or
-npm run serve
+yarn dev
 ```
 
 ### Compiles and minifies for production
 ```
 yarn build
-# or
-npm run build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-# or
-npm run lint
-```
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+
 
 
 ## Screenshot
