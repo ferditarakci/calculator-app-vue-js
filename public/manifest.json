@@ -1,18 +1,18 @@
 {
-	"name": "Calculator",
-	"short_name": "Calculator",
-	"scope": "/",
-	"start_url": "/",
-	"theme_color": "#109DFF",
-	"background_color": "#FFFFFF",
-	"display": "standalone",
-	"orientation": "portrait",
-	"icons": [
-		{
-			"src": "/assets/images/logo.png",
-			"sizes": "512x512",
-			"type": "image/png",
-			"purpose": "any maskable"
-		}
-	]
+  "name": "Calculator",
+  "short_name": "Calculator",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#109DFF",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
